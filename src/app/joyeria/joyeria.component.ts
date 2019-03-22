@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
+declare var $ :any;
 
 @Component({
   selector: 'app-joyeria',
@@ -16,13 +17,8 @@ export class JoyeriaComponent implements OnInit {
 
   ngOnInit() {
 
-    this.spinner.show()
 
-   setTimeout(() => {
 
-    this.spinner.hide();
-
-   }, 5000);
 
   }
 

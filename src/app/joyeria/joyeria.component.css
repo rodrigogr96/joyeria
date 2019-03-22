@@ -1,0 +1,198 @@
+#banner-area {
+  position: relative;
+}
+
+#banner-area:after {
+  background-color: #202020;
+  content: '';
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: -1px;
+  width: 100%;
+  -webkit-clip-path: polygon(0% 75%, 0% 0%, 100% 0%, 100% 35%);
+  clip-path: polygon(0% 75%, 0% 0%, 100% 0%, 100% 35%);
+  z-index: -1;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+.carousel-control-prev i{
+  font-size: 20px !important;
+  color: black;
+}
+.carousel-control-next i{
+  font-size: 20px !important;
+  color: black;
+}
+
+
+.about-image-wrap {
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.about-image-wrap a:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.about-image-wrap a img {
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.about-content-wrap {
+  font-family: "Droid Serif";
+}
+
+.about-content-wrap h2, .about-content-wrap h3, .about-content-wrap h4 {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+}
+
+.about-content-wrap h2 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #d82e2e;
+  margin-bottom: 0;
+  margin-top: -5px;
+  font-weight: bold;
+}
+
+.about-content-wrap h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 17px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .about-content-wrap h3 {
+      font-size: 2rem;
+      line-height: 1.5;
+  }
+}
+
+.about-content-wrap .about-text {
+  font-style: italic;
+  padding-left: 65px;
+  font-size: 1.3rem;
+  line-height: 3rem;
+  position: relative;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-content-wrap .about-text {
+      padding-left: 0;
+  }
+}
+
+.about-content-wrap .about-text .vertical-text {
+  position: absolute;
+  left: 0;
+  margin-top: -20px;
+  display: none;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 992px) {
+  .about-content-wrap .about-text .vertical-text {
+      display: block;
+  }
+}
+
+.about-content-wrap .about-text .btn-long-arrow {
+  margin-top: 11px;
+  margin-left: -8px;
+}
+
+#aboutUs-area{
+  margin-top: 40px !important;
+
+  margin-bottom: 40px !important;
+}
+
+#aboutUs-area.about__2 .about-image-wrap {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+  #aboutUs-area.about__2 .about-image-wrap {
+      margin-top: -150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #aboutUs-area.about__2 .about-content-wrap {
+      margin-left: 50px;
+  }
+}
+
+#aboutUs-area.about__2 .about-content-wrap h3 {
+  font-family: "Playfair Display";
+  font-size: 6rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  #aboutUs-area.about__2 .about-content-wrap h3 {
+      font-size: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #aboutUs-area.about__2 .about-content-wrap h3 {
+      font-size: 4.8rem;
+  }
+}
+
+#aboutUs-area.about__2 .about-content-wrap h4.price {
+  font-size: 4.8rem;
+  color: #d82e2e;
+  margin: 40px 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  #aboutUs-area.about__2 .about-content-wrap h4.price {
+      font-size: 2.8rem;
+      margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #aboutUs-area.about__2 .about-content-wrap h4.price {
+      margin: 10px 0;
+  }
+}
+
+#aboutUs-area.about__2 .about-content-wrap h4.price sup {
+  font-size: 2.4rem;
+  color: #202020;
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  #aboutUs-area.about__2 .about-content-wrap h4.price sup {
+      font-size: 1.7rem;
+  }
+}
+
+#aboutUs-area.about__2 .about-content-wrap .about-text {
+  padding-left: 0;
+}
+
+
+.about-content-wrap h2{
+
+  font-weight: bold;
+}

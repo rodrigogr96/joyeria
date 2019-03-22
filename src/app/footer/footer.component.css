@@ -1,0 +1,184 @@
+.callto-action-wrapper {
+  background-color: #f4f5f7;
+  padding: 30px 30px 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .callto-action-wrapper {
+      padding: 20px 15px 5px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .callto-action-wrapper {
+      padding: 20px 15px 0;
+  }
+}
+
+.callto-action-wrapper .col-lg-3:last-child .single-callto-action {
+  border-right: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .callto-action-wrapper .col-lg-3:nth-child(2n+2) .single-callto-action {
+      border-right: none;
+  }
+}
+
+.single-callto-action {
+  font-style: italic;
+  font-family: "Droid Serif";
+  border-right: 1px dashed #d2d2d2;
+  padding: 10px 0;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-callto-action {
+      border: none;
+  }
+}
+
+.single-callto-action * {
+  margin: 0;
+}
+
+.single-callto-action .callto-thumb {
+  margin-right: 15px;
+}
+
+.single-callto-action h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-callto-action h2 {
+      font-size: 1.3rem;
+      line-height: 1.5;
+  }
+}
+
+.followup-wrapper {
+  background-size: cover;
+  background-position: center center;
+  padding: 40px 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .followup-wrapper {
+      padding: 30px 15px;
+  }
+}
+
+.follow-content-wrap {
+  font-family: "Droid Serif";
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #f4f5f7;
+}
+
+.follow-content-wrap .logo {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.follow-content-wrap p {
+  margin: 0;
+}
+
+.footer-social-icons {
+  margin: 30px 0;
+}
+.footer-social-icons a i{
+  font-size: 20px !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-social-icons {
+      margin: 20px 0;
+  }
+}
+
+.footer-social-icons a {
+  font-size: 1.5rem;
+  line-height: 45px;
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  margin-right: 15px;
+  height: 45px;
+  width: 45px;
+}
+
+.footer-social-icons a:last-child {
+  margin-right: 0;
+}
+
+.footer-social-icons a:hover {
+
+  color: #d82e2e !important;
+  border-color: #d82e2e !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-social-icons a {
+      font-size: 1.4rem;
+      line-height: 35px;
+      margin-right: 10px;
+      height: 35px;
+      width: 35px;
+  }
+}
+
+.image-gallery-wrapper .gallery-item {
+  overflow: hidden;
+}
+
+.image-gallery-wrapper .gallery-item:hover img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.image-gallery-wrapper .gallery-item img {
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.copyright-area {
+  padding: 25px 0;
+  background-color:#202020;
+  color: white;
+  font-size: 13px;
+}
+
+.copyright-area .copyright-text {
+  font-style: italic;
+  font-family: "Droid Serif";
+}
+
+.copyright-area .copyright-text * {
+  margin: 0;
+}
